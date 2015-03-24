@@ -44,16 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CapaConexion\clsConexionDB.cs" />
+    <Compile Include="CapaNegocios\clsTipoID.cs" />
+    <Compile Include="CapaPresentacion\FrmMantenimientoId.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CapaPresentacion\FrmMantenimientoId.Designer.cs">
+      <DependentUpon>FrmMantenimientoId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmPantallaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmPantallaPrincipal.Designer.cs">
+      <DependentUpon>FrmPantallaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CapaPresentacion\FrmMantenimientoId.resx">
+      <DependentUpon>FrmMantenimientoId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FrmPantallaPrincipal.resx">
+      <DependentUpon>FrmPantallaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
