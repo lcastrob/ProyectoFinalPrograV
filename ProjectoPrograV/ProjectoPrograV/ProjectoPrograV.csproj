@@ -45,12 +45,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CapaConexion\clsConexionDB.cs" />
+    <Compile Include="CapaNegocios\clsPais.cs" />
     <Compile Include="CapaNegocios\clsTipoID.cs" />
+    <Compile Include="CapaPresentacion\FrmMantenimientoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmMantenimientoClientes.Designer.cs">
+      <DependentUpon>FrmMantenimientoClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapaPresentacion\FrmMantenimientoId.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CapaPresentacion\FrmMantenimientoId.Designer.cs">
       <DependentUpon>FrmMantenimientoId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmMantenimientoPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\FrmMantenimientoPais.Designer.cs">
+      <DependentUpon>FrmMantenimientoPais.cs</DependentUpon>
     </Compile>
     <Compile Include="CapaPresentacion\FrmPantallaPrincipal.cs">
       <SubType>Form</SubType>
@@ -60,8 +73,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CapaPresentacion\FrmMantenimientoClientes.resx">
+      <DependentUpon>FrmMantenimientoClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\FrmMantenimientoId.resx">
       <DependentUpon>FrmMantenimientoId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\FrmMantenimientoPais.resx">
+      <DependentUpon>FrmMantenimientoPais.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\FrmPantallaPrincipal.resx">
       <DependentUpon>FrmPantallaPrincipal.cs</DependentUpon>

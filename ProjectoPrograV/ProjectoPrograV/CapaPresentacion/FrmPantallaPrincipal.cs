@@ -29,5 +29,17 @@ namespace ProjectoPrograV
             FrmMantenimientoId MantenimientoId = new FrmMantenimientoId();
             MantenimientoId.Show();
         }
+
+        private void paisesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMantenimientoPais MantenimientoPais = new FrmMantenimientoPais();
+            MantenimientoPais.Show();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMantenimientoClientes MantenimientoClientes = new FrmMantenimientoClientes();
+            MantenimientoClientes.Show();
+        }
     }
 }

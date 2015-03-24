@@ -6,20 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjectoPrograV.CapaNegocios
 {
-    class clsTipoID
+    class clsPais
     {
-        public string CodigoId;
-        public string DescripcionCodigo;
+        public int IdPais;
+        public string NombrePais;
         private DateTime FechaCreacion;
         private int IdUsuarioCreacion;
         private DateTime UltimaFechaModificacion;
         private int IdUltimoUsuarioModificacio;
-
-        public  bool ValidaDatos()
-        {
-            return true;
-        }
-
 
     }
 }
